@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Assets/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Profile card</title>
+  </head>
+  <body>
+    <div class="profile-card">
+      <img
+        src="./Assets/fiverr.jpg"
+        alt="profile-picture"
+        data-testid="profilePicture"
+      />
+      <h2 data-testid="fullName">Adeleke Yusuf</h2>
+      <p data-testid="jobTitle">Front-End Developer</p>
+      <p data-testid="shortBio">
+        High Knowledge in web development and desgin, producing quality work
+      </p>
+      <p data-testid="currentLocation">Ogun, Nigeria</p>
+
+      <a href="" data-testid="emailAddress">adelekeadeyemi19@gmail.com</a>
+
+      <div class="socialLinks">
+        <a
+          href="https://www.linkedin.com/in/adeleke-yusuf-35a569169"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin" data-testid="linkedinIcon"></i>
+        </a>
+        <!--  -->
+        <a href="https://github.com/YUpappi" target="_blank">
+          <i class="fa-brands fa-github" data-testid="gitHubIcon"></i>
+        </a>
+        <!--  -->
+        <a href="https://x.com/adelekeyemii?s=21" target="_blank">
+          <i class="fa-brands fa-x-twitter" data-testid="twitterIcon"></i>
+        </a>
+      </div>
+      <p data-testid="currentTimeUTC" id="currentTime"></p>
+    </div>
+  </body>
+  <script src="./Assets/index.js"></script>
+</html>
